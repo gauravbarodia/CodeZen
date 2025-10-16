@@ -1,12 +1,42 @@
-# React + Vite
+# CodeZen 🧘
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personalized training platform for competitive programmers, built with **React.js** and the **Codeforces API**.
 
-Currently, two official plugins are available:
+CodeZen is a feature-rich web application designed to help competitive programmers accelerate their skill growth. It provides a structured and personalized practice environment by generating tailored challenges and simulating real contest environments, all powered by live data from the Codeforces platform.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[**Live Demo Link Here**](https://codezen17.netlify.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features
+
+* **Personalized Daily Challenges**: Generates unique practice problems based on the user's live Codeforces rating.
+* **Advanced Problem Search**: Filter the entire Codeforces problem set by rating and topic to focus on specific areas of improvement.
+* **Contest Simulation**: Create custom, timed practice contests to simulate a real competition environment.
+* **High-Performance Caching**: An advanced caching system using `localStorage` provides an instant-load experience for returning users and silently updates data in the background.
+
+---
+
+## Tech Stack
+
+* **Frontend**: React.js
+* **API**: Codeforces Public API
+* **Styling**: CSS
+* **API Requests**: Axios
+
+---
+
+## Getting Started
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/gauravbarodia/CodeZen.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
