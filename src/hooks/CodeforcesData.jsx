@@ -44,7 +44,7 @@ function saveToLocalStorage(cfHandle, state) {
 
 
 
-export function useCodeforcesData(cfHandle) {
+export function CodeforcesData(cfHandle) {
   const [unsolvedProblemsByRating, setUnsolvedProblemsByRating] = useState(new Map());
   const [userRating, setUserRating] = useState(800);
   const [allTags, setAllTags] = useState([]);
