@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import * as Tone from 'tone';
 
-import alarmSound from '../assets/ss.mp3';
+import alarmSound from '../assets/sound.mp3';
 
 const quotes = [
   "Sometimes life is like this dark tunnel. You can't always see the light at the end of the tunnel, but if you just keep moving... you will come to a better place.",
@@ -151,4 +151,5 @@ export default function ContestView({ contestData, onContestFinish }) {
     </div>
   );
 }
+
 
