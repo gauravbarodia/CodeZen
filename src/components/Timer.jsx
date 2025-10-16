@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import * as Tone from 'tone';
-import alarmSound from '/src/assets/ss.mp3'; 
+import alarmSound from '/src/assets/sound.mp3'; 
 
 const formatTime = (seconds) => {
   if (isNaN(seconds) || seconds < 0) return "00:00";
@@ -111,4 +111,5 @@ export default function Timer({ onTimerFinish }) {
     </div>
   );
 }
+
 
