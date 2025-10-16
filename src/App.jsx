@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useCodeforcesData } from "./hooks/useCodeforcesData";
+import { CodeforcesData } from "./hooks/CodeforcesData";
 import WelcomeForm from "./components/WelcomeForm";
 import DailyChallenges from "./components/DailyChallenges";
 import TagSearch from "./components/TagSearch";
@@ -12,7 +12,7 @@ import "./App.css";
 export default function App() {
   const [cfHandle, setCfHandle] = useState("");
   const { userRating, unsolvedProblemsByRating, allTags, isLoading, error } =
-    useCodeforcesData(cfHandle);
+    CodeforcesData(cfHandle);
   const [activeContest, setActiveContest] = useState(null);
   const [isTimerFinished, setIsTimerFinished] = useState(false); 
 
