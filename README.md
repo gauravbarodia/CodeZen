@@ -30,7 +30,7 @@ CodeZen is a feature-rich web application designed to help competitive programme
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/gauravbarodia/CodeZen.git)
+    git clone [https://github.com/gauravbarodia/CodeZen.git]
     ```
 2.  **Install dependencies:**
     ```bash

@@ -10,12 +10,6 @@ function loadFromLocalStorage(cfHandle) {
     if (!data) return null;
     const parsed = JSON.parse(data);
     
-    const cacheTime = parsed.timestamp || 0;
-    if (Date.now() - cacheTime > 24 * 60 * 60 * 1000) {
-        console.log("Cache is older than 24 hours. Triggering a full refresh.");
-        return null;
-    }
-
     return {
       ...parsed,
       solvedSet: new Set(parsed.solvedSet),
