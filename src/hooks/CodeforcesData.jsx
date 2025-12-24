@@ -198,7 +198,7 @@ export function CodeforcesData(cfHandle) {
           "olympiad in informatics",
           "european championship",
           "asia pacific championship",
-          "VK Cup 2022 - Квалификация",
+          "VK Cup 2022",
         ];
 
         const excludedContestIds = new Set(
