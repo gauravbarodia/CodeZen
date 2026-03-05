@@ -20,10 +20,10 @@ export default function DailyChallenges({ unsolvedProblemsByRating, userRating }
 
   const bucket = getBucket(userRating);
   const challenges = {
-    "Breathwork": getProblems(bucket),
-    "Mindful State": getProblems(bucket + 100),
-    "Deep Focus": getProblems(bucket + 200),
-    "Koan": getProblems(bucket + 300),
+    "Breathwork": getProblems(bucket+100),
+    "Mindful State": getProblems(bucket + 200),
+    "Deep Focus": getProblems(bucket + 300),
+    "Koan": getProblems(bucket + 400),
   };
 
   return (
