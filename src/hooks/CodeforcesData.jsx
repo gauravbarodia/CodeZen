@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const STORAGE_KEY_PREFIX = "cf_user_data_";
-const FULL_REFRESH_INTERVAL = 3 * 24 * 60 * 60 * 1000; 
+const FULL_REFRESH_INTERVAL = 31 * 24 * 60 * 60 * 1000; 
 
 function loadFromLocalStorage(cfHandle) {
   try {
