@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const STORAGE_KEY_PREFIX = "cf_user_data_";
-const FULL_REFRESH_INTERVAL = 15 * 24 * 60 * 60 * 1000; 
+const FULL_REFRESH_INTERVAL = 31 * 24 * 60 * 60 * 1000; 
 
 function loadFromLocalStorage(cfHandle) {
   try {
@@ -166,7 +166,7 @@ export function CodeforcesData(cfHandle) {
 
       console.log(
         cached
-          ? "Cache stale (>15 days). Performing full refresh..."
+          ? "Cache stale (>31 days). Performing full refresh..."
           : "No cache found. Performing full refresh..."
       );
 
