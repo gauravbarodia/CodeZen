@@ -233,7 +233,7 @@ export function CodeforcesData(cfHandle) {
           }
         }
 
-        const hardcodedTags = [
+        const Tags = [
           "implementation",
           "dp",
           "math",
