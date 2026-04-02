@@ -263,12 +263,12 @@ export function CodeforcesData(cfHandle) {
 
         setUserRating(rating);
         setUnsolvedProblemsByRating(unsolvedMap);
-        setAllTags(hardcodedTags);
+        setAllTags(Tags);
 
         saveToLocalStorage(cfHandle, {
           userRating: rating,
           unsolvedProblemsByRating: unsolvedMap,
-          allTags: hardcodedTags,
+          allTags: Tags,
           solvedSet,
         });
       } catch (e) {
